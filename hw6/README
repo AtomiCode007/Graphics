@@ -1,0 +1,26 @@
+Key bindings
+      m/n   Change mode(Projection, perspective, First Person)
+      =/-   Increase and decrease the scale of the planes.
+      ./,   Change the scenes 0-4
+      f/v   Increase and decrease the field of view
+      g     Toggle axes
+      arrows      Change view angle
+      R     Reset view angle
+      ESC   Exit
+      w,a,s,d.    Navigate in First person mode
+      q/e   Rotate the FPP camera left and right
+      F3    Change the sun distance from 5 to 1 and back
+      F1    Change between smooth lighting and flat lighting.
+      F2    Local view Change
+      L/l   Light switch
+      B/b   Stop the sun movement 
+      X/x   while stopped, move the sun and other objects depending on zh
+      [/]   Increase/decrease the elevation of the sun
+      1/2   Increase/decrease the ambeient level.
+      3/4   Increase/decrease the diffuse lighting level.
+      5/6   Increase/decrease the specular lighting level.
+      7/8   Increase/decrease the emmision level of the lights.
+      9/0   Increase/decrease the shininess of the objects in the scene.
+
+
+This assignment took me about 8-10 hours to complete, due to other tests and homework, I wasn't able to get the textures to work properly until the last few hours. I managed to get everything but the propeller. With some more time after the due date I will get that done as well. For now I suppose that the propeller is spinning so a texture is hard to see anyways.. 
