@@ -1,0 +1,36 @@
+- talk about gotchas and things that were difficult but resolved
+
+Key bindings
+      m/n   Change mode(Projection, perspective, First Person)
+      =/-   Increase and decrease the scale of the planes.
+      ./,   Change the scenes 0-4
+      f/v   Increase and decrease the field of view
+      g     Toggle axes
+      arrows      Change view angle
+      R     Reset view angle
+      ESC   Exit
+      w,a,s,d.    Navigate in First person mode
+      q/e   Rotate the FPP camera left and right
+      F3    Change the sun distance from 5 to 1 and back
+      F1    Change between smooth lighting and flat lighting.
+      F2    Local view Change
+      L/l   Light switch
+      B/b   Stop the sun movement 
+      X/x   while stopped, move the sun and other objects depending on zh
+      [/]   Increase/decrease the elevation of the sun
+      1/2   Increase/decrease the ambeient level.
+      3/4   Increase/decrease the diffuse lighting level.
+      5/6   Increase/decrease the specular lighting level.
+      7/8   Increase/decrease the emmision level of the lights.
+      9/0   Increase/decrease the shininess of the objects in the scene.
+      z	    Pause/Unpause (in car mode)
+
+*** TO RUN ***
+In program directory run makefile
+./Final_project to execute
+Scene begins in in-car view. press z to unpause. Car will complete 1 full lap. m will change view modes.
+
+*** NOTES ***
+We have spent a considerable amount of time working on this project this semester, learning numerous things about OpenGl in the process. Zach has improved his texture mapping skills and object building skills through Blender and in C code. Tyler worked very hard on his race car, he has added complex curves in his front spoiler and rear spoiler including calculating the normals manually. He also added a functional windshield, tires that rotate with the car as it moves and a steering wheel that also rotates as the car turns. We spent a considerable amount of time building a set of matricies that dictate where the car is drawn at any given program time. This allows us to give the impression of the car moving around the track. Finally we are mostly satisfied with our skybox which includes our ground textures...
+With that said, it is midnight on Sunday and we are aware that the scene is far from complete. The biggest issue that Tyler is having at the moment is calculating the glLookAt vector so that the specatator is looking in the proper direction. Extensive research on the matter (and looking over ex25) has left him feeling close but there is still obvoiusly work to be done. Zach is having major issues getting textures on the starting tower to apply correctly so it is 'bare metal' at the moment. Other features noticably absent include but are not limited to, our tunnel, better textures on the car, multiple cars in a race scenerio, sounds, and, perhaps most importantly, a view mode that allows the entire scene to be spectated efficiently. We look forward to your feedback and continuing to put time and effort into this project.
+
